@@ -35,6 +35,7 @@ namespace SkeltonDotNet
 		{
 			PrefFile pf = new PrefFile(this);
 			pf.Load();
+			//MessageBox.Show(pf.AppDataPath);	
 			Rectangle? rect = pf.GetBounds();
 		}
 		// **********************************************************
