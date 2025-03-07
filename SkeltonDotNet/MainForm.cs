@@ -1,4 +1,4 @@
-namespace SkeltonDotNet6
+namespace SkeltonDotNet
 {
 	public partial class MainForm : BaseForm
 	{

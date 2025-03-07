@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkeltonDotNet6
+namespace SkeltonDotNet
 {
 	public class PrefFile
 	{

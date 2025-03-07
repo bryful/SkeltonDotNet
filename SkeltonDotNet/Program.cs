@@ -1,4 +1,4 @@
-namespace SkeltonDotNet6
+namespace SkeltonDotNet
 {
 	internal static class Program
 	{

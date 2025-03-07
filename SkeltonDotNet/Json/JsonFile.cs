@@ -13,7 +13,7 @@ using System.Text.Unicode;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SkeltonDotNet6
+namespace SkeltonDotNet
 {
 	public class JsonFile
 	{
@@ -27,6 +27,21 @@ namespace SkeltonDotNet6
 
 		}
 		// *********************************
+		public string[] Keys()
+		{
+			string[] ret = new string[0];
+			if (Obj != null)
+			{
+
+				List<string> list = new List<string>();
+				foreach (var o in Obj)
+				{
+					list.Add(o.Key);
+				}
+				ret = list.ToArray();
+			}
+			return ret;
+		}
 
 		// ****************************************************
 		public string? ToJson()
